@@ -14,7 +14,7 @@ const AddNewTask = () => {
 
   const onClickSubmitForm = (e) => {
     e.preventDefault();
-    navigate("/");
+    navigate("/home");
   };
   return (
     <AddProjectContainer>
